@@ -2,3 +2,7 @@
 !/.gitignore
 !/ranger/
 !/README.md
+!/fish
+/fish/functions/fish_prompt*
+!/tmux.conf
+!/tmux/
