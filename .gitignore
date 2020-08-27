@@ -6,3 +6,4 @@
 /fish/functions/fish_prompt*
 !/tmux.conf
 !/tmux/
+!/fontconfig
