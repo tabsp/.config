@@ -22,6 +22,26 @@ prompt
 omf install spacefish
 ```
 
+### fd
+
+```shell
+# MacOS 
+brew install fd
+
+# Arch
+sudo pacman -S fd
+```
+
+### bat
+
+```shell
+# MacOS
+brew install bat
+
+# Arch
+sudo pacman -S bat
+```
+
 ## Tmux
 
 ```shell
@@ -41,3 +61,4 @@ ln -s -f ~/.config/tmux.conf ~/.tmux.conf
 ```shell
 brew install reattach-to-user-namespace
 ```
+
