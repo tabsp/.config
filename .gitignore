@@ -7,3 +7,6 @@
 !/tmux.conf
 !/tmux/
 !/fontconfig
+!/zsh/
+
+fish/.DS_Store

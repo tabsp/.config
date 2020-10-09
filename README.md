@@ -1,25 +1,36 @@
 # .config
 
-## fish
+## ZSH
 
 ```shell
-# MacOS
-brew install fish
-
-# Arch
-sudo pacman -S fish
+ln -s ~/.config/zsh/zshrc ~/.zshrc
 ```
 
-oh-my-fish
+## 开发环境
+
+修改目录为本机目录
+
+### Java
+
+eg:
 
 ```shell
-curl -L https://get.oh-my.fish | fish
+ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home ~/.java
 ```
 
-prompt
+### Zeroc ICE
+
+eg:
 
 ```shell
-omf install spacefish
+ln -s ~/Workspace/zeroc/Ice-3.4.2 ~/.zeroc-ice
+```
+
+## fzf
+
+```shell
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 ```
 
 ### fd
