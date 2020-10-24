@@ -19,3 +19,4 @@ antigen apply
 source ~/.fzf.zsh
 source ~/.config/zsh/env.zsh
 source ~/.config/zsh/alias.zsh
+export PATH="/usr/local/opt/node@12/bin:$PATH"

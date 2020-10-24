@@ -4,7 +4,6 @@ export FZF_DEFAULT_OPTS="--layout=reverse --inline-info --height 40% --preview '
 
 export EDITOR="nvim"
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.aliyun.com/homebrew/homebrew-bottles"
-export PATH="/usr/local/opt/node@12/bin:$PATH"
 
 export JAVA_HOME="~/.java"
 export PATH=".$PATH:$JAVA_HOME/bin"
