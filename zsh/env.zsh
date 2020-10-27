@@ -6,11 +6,13 @@ export FZF_DEFAULT_OPTS="--layout=reverse --inline-info --height 40% --preview '
 
 export EDITOR="nvim"
 
-export JAVA_HOME="~/.java"
-export PATH=".$PATH:$JAVA_HOME/bin"
-export CLASS_PATH="$JAVA_HOME/lib"
-
-export ICE_HOME="~/.zeroc-ice"
+export ICE_HOME="$HOME/.zeroc-ice"
 export PATH="$ICE_HOME/bin:$PATH"
 export CLASSPATH="$ICE_HOME/lib/Ice.jar:$CLASSPATH"
 
+export JAVA_8_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_11_HOME=`/usr/libexec/java_home -v 11`
+export JAVA_HOME=$JAVA_8_HOME
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
