@@ -6,26 +6,6 @@
 ln -s ~/.config/zsh/zshrc ~/.zshrc
 ```
 
-## 开发环境
-
-修改目录为本机目录
-
-### Java
-
-eg:
-
-```shell
-ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home ~/.java
-```
-
-### Zeroc ICE
-
-eg:
-
-```shell
-ln -s ~/Workspace/zeroc/Ice-3.4.2 ~/.zeroc-ice
-```
-
 ## fzf
 
 ```shell
@@ -36,7 +16,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ### fd
 
 ```shell
-# MacOS 
+# MacOS
 brew install fd
 
 # Arch
