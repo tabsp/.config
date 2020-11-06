@@ -6,5 +6,6 @@
 !/tmux/
 !/fontconfig
 !/zsh/
+!/alacritty/
 
 fish/.DS_Store
