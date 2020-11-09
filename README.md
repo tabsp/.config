@@ -52,4 +52,10 @@ ln -s -f ~/.config/tmux.conf ~/.tmux.conf
 ```shell
 brew install reattach-to-user-namespace
 ```
+## Font
+
+```shell
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code-nerd-font
+```
 
